@@ -1,6 +1,8 @@
 # corrDatasetLong
 This macro takes a set of variables, calculates the correlations among them, and then outputs a data set with one case per pair of variables containing the correlation between those variables.
 
+This and other SPSS Python Extension functions can be found at http://www.stat-help.com/python.html
+
 ## Usage:
 **corrDatasetLong(varList = "ALL", corrDataset = "Correlations", reduced = False)**
 * "varList" is a list of strings indicating the variables that should be included in the correlation analysis. If this argument is omitted or set to "ALL", the correlation analysis will include all variables in the data set.
